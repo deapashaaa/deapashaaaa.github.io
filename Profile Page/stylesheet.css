@@ -1,0 +1,133 @@
+.header {
+    width: 100%;
+    background-color: #f5f4f0;
+    height: 70px;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+
+.header-logo {
+    color: #7C99AC;
+    font-family: 'Lucida Grande';
+    font-size: 36px;
+    float: left;
+    padding: 10px 40px;
+}
+
+.main {
+    width: 100%;
+    background-color: #f5f4f0;
+    height: 1020px;
+}
+
+.top-wrapper {
+    width: 100%;
+    background-image: url(header.jpg) ;
+    background-size: cover;
+    height: 270px;
+    color: #7C99AC;
+    padding: 100px 0 100px 0;
+    text-align: center;
+}
+
+/* tulisan diatas */
+.top-wrapper h1 {
+    border-right-width: 0.15em;
+    border-right-style: solid;
+    border-right-color: #f5f4f0;
+    max-width: fit-content;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 0 auto;
+    padding: 0 15px 10px 5px;
+    font-size: 70px;
+}
+
+
+.top-wrapper h3 {
+    font-size: 30px;
+    opacity: 0,5;
+    padding: 5px 0;
+}
+
+.container {
+    max-width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.top-text {
+    position: relative;
+    top: 70px;
+}
+
+/* bagian profile */
+
+.profile-photo {
+    text-align: center;
+}
+.profile-wrapper {
+    height: 600px;
+    padding-right: 5%;
+    text-align: left;
+    padding-top: 5%;
+    font-size: 20px;
+}
+
+.profile-wrapper h2 {
+    font-size: 25px;
+    display: block;
+}
+
+.profile-wrapper p {
+    font-size: 17px;
+    padding-top: 1%;
+}
+
+.container-profile {
+    max-width: 1170px;
+    margin-left: 5%;
+    margin-right: 5%;
+    color: #7C99AC;
+}
+
+.heading {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: #7C99AC;
+    text-align: center;
+}
+
+.heading h2 {
+    font-weight: normal;
+    font-size: 35px;
+}
+
+.photo {
+    position: relative;
+}
+
+.photo img {
+    width: 250px;
+    border: 1px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+
+/* bagian footer */
+.footer {
+    width: 100%;
+    background-color: #7C99AC;
+    height: 100px;
+}
+
+.footer-logo {
+    color: #f5f4f0;
+    font-family: 'Lucida Grande';
+    float: left;
+    padding: 35px 20px;
+    font-size: 30px;
+}
